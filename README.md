@@ -1,6 +1,6 @@
 ## Prompting Medical Vision-Language Models to Mitigate Diagnosis Bias by Generating Realistic Dermoscopic Images
 
-### [Paper](http://arxiv.org/abs/)
+### [Paper](https://arxiv.org/abs/2504.01838)
 
 ## Acknowledgments
 
@@ -43,4 +43,15 @@ other metrics. For example, to sample 50K images from a trained model over `N` G
 
 ```bash
 torchrun --nnodes=1 --nproc_per_node=N sample_text2img.py --model DiT-L/4 --image-size 256 --num-fid-samples 50000 --ckpt /path/to/model.pt
+```
+
+## BibTeX
+
+```bibtex
+@article{munia2025prompting,
+  title={Prompting Medical Vision-Language Models to Mitigate Diagnosis Bias by Generating Realistic Dermoscopic Images},
+  author={Munia, Nusrat and Imran, Abdullah-Al-Zubaer},
+  journal={arXiv preprint arXiv:2504.01838},
+  year={2025}
+}
 ```
