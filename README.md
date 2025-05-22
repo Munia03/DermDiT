@@ -1,6 +1,6 @@
 ## Prompting Medical Vision-Language Models to Mitigate Diagnosis Bias by Generating Realistic Dermoscopic Images
 
-### [Paper](https://arxiv.org/abs/2504.01838)
+### [Paper](https://ieeexplore.ieee.org/abstract/document/10980892) [arXiv](https://arxiv.org/abs/2504.01838)
 
 ## Acknowledgments
 
@@ -24,7 +24,7 @@ conda activate DiT
 ```
 
 
-## Training DiT
+## Training DermDiT
 
 We provide a training script for DiT in [`train_text_to_image.py`](train_text_to_image.py). This script can be used to train text-conditional DermDiT model.
 
@@ -48,10 +48,12 @@ torchrun --nnodes=1 --nproc_per_node=N sample_text2img.py --model DiT-L/4 --imag
 ## BibTeX
 
 ```bibtex
-@article{munia2025prompting,
+@inproceedings{munia2025prompting,
   title={Prompting Medical Vision-Language Models to Mitigate Diagnosis Bias by Generating Realistic Dermoscopic Images},
-  author={Munia, Nusrat and Imran, Abdullah-Al-Zubaer},
-  journal={arXiv preprint arXiv:2504.01838},
-  year={2025}
+  author={Munia, Nusrat and Imran, Abdullah Al Zubaer},
+  booktitle={2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)},
+  pages={1--4},
+  year={2025},
+  organization={IEEE}
 }
 ```
