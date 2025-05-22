@@ -1,6 +1,5 @@
-## Prompting Medical Vision-Language Models to Mitigate Diagnosis Bias by Generating Realistic Dermoscopic Images
+## [Prompting Medical Vision-Language Models to Mitigate Diagnosis Bias by Generating Realistic Dermoscopic Images](https://ieeexplore.ieee.org/abstract/document/10980892) 
 
-### [Paper](https://ieeexplore.ieee.org/abstract/document/10980892)       
 ### [arXiv](https://arxiv.org/abs/2504.01838)
 
 ## Acknowledgments
